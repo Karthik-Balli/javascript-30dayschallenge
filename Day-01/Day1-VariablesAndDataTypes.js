@@ -37,3 +37,4 @@ console.log(greet)
 // greet = "Good Afternoon"
 // console.log(greet)  // TypeError: Assignment to constant variable.
 
+// Day-01 Completed
