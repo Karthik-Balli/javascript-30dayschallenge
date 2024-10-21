@@ -1,3 +1,5 @@
+// Day-05 Functions
+
 // Task1 - write a function to check if a given number is a even or odd.
 function evenOrOdd (num) {
     if(num == 0) {
