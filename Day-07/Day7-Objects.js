@@ -1,6 +1,6 @@
 // Day-07 Objects
 
-// Book object is created, and can be used for furthere tasks - from one of fav books
+// Book object is created, and can be used for furthere tasks 
 const book = {
     title: "I too had a love story",
     author: "ravinder singh",
