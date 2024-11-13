@@ -106,7 +106,7 @@ const task7 = () => {
     // let result = [...book.getDetails()];
     // console.log(result);
 }
-// task7();
+ task7();
 
 
 // Task 8 - use for in loop to iterate over the properties of the book object and log each property ant its value to the console.
@@ -123,4 +123,47 @@ const task9 = (book) => {
     console.log("Keys:", Object.keys(book));
     console.log("Values:", Object.values(book));
 }
-// task9(book);
+//  task9(book);
+
+
+// Exercises on objects
+const exe1 = () => {
+    let vehicle = {
+      wheels: '4',
+      fuelType: 'Gasoline',
+      color: 'Green'
+    };
+    
+    let carProps = {
+      type: {
+        value: 'Volkswagen',
+        enumerable: true
+      },
+      model: {
+        value: 'Golf',
+        enumerable: true
+      }
+    };
+    
+    var car = Object.create(vehicle, carProps);
+    console.log(car); // Now this will display the properties correctly
+  };
+  
+//   exe1();
+  
+
+const exe2 = () => {
+    const author = {
+        author: 'Ana Huang',
+    };
+    const bookNo= {
+        book1: "Twisted Love",
+        book2: "Twisted Games",
+        book3: "Twisted Hate",
+        book4: "Twisted Lies"
+    };
+    const twistedSeries = Object.assign({}, author, bookNo);
+
+    console.log(twistedSeries);
+}
+// exe2();
