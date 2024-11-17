@@ -108,3 +108,16 @@ const task9 = ()  => {
     console.log(obj);
 }
 // task9();
+
+
+// javascript ES6, no need to mention the complete values to object keys
+const exe1 = () => {
+    function User(name, email) {
+        this.name = name,
+        this.email = email
+    } 
+
+    const user1 = new User("Karthik", "test@gmail.com");
+    console.log(user1);
+};
+// exe1();

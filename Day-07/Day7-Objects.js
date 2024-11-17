@@ -81,7 +81,7 @@ const task5 = () => {
     
     console.log(library);
 }
-// task5();
+ task5();
 
 
 // Task 6 - Access and log the name of the library and title of all books to the console.
